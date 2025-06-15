@@ -69,30 +69,17 @@ test('acessando página do Playwright', async ({ page }) => {
 
 ```
 .
+├── README.md
 ├── package.json
+├── package-lock.json
+├── node_modules/
 ├── playwright.config.ts
-└── tests
-    └── example.spec.ts      # Cenário de teste “Get started”
+├── e2e/                 
+|    └── example.spec.ts
+├── playwright-report/   
+└── test-results/        
+.
 ```
-
-## Tecnologias Utilizadas
-
-* [Playwright Test Runner](https://playwright.dev/docs/intro) para testes E2E
-* Node.js ≥14
-
-## Observações
-
-* Os testes rodam, por padrão, em modo **headless**.
-* Para ver a execução no navegador, use:
-
-  ```bash
-  npx playwright test --headed
-  ```
-* Para debugar em tempo real:
-
-  ```bash
-  npx playwright test --debug
-  ```
 
 ## Contribuição
 
